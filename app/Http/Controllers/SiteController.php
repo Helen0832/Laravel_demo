@@ -9,12 +9,11 @@ use Illuminate\Routing\Controller as BaseController;
 
 class Controller extends BaseController
 {
-  function Hello(){
+  public function Hello(){
     return "hello world";
     }
-}
 
-public function HelloDev(){
+    public function HelloDev(){
     return 'hello world';
     }
 
@@ -25,4 +24,11 @@ public function HelloDev2(){
 
     public function HelloDev22(){
     return 'test3';
+  }
+
+public function HelloDev02(){
+    return 'test!!!';
     }
+
+
+}
