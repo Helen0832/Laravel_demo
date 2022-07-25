@@ -22,3 +22,7 @@ public function HelloDev(){
 public function HelloDev2(){
     return 'hello world';
     }
+
+    public function HelloDev22(){
+    return 'test3';
+    }
