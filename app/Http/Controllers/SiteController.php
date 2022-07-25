@@ -13,3 +13,7 @@ class Controller extends BaseController
     return "hello world";
     }
 }
+
+public function HelloDev(){
+    return 'hello world';
+    }
